@@ -7,4 +7,11 @@
     tools:context="com.brillientmindsoftwares.revcount.MainActivity">
 
 
+    <Button
+        android:id="@+id/login"
+        android:layout_width="196dp"
+        android:layout_height="57dp"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="383dp" />
 </android.support.constraint.ConstraintLayout>
