@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.brillientmindsoftwares.revcount.HomeActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:id="@+id/CarReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FW 20 GP GP"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignEnd="@+id/LicenceEXPDate" />
+
+    <TextView
+        android:id="@+id/LicenceEXPDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21/05/2018"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/CarReg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/Make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polo TSI"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/Make"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/images" />
+
+    <Button
+        android:id="@+id/renewbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Renew Now"
+        android:layout_below="@+id/CarReg"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/DaysLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="56days"
+        android:layout_below="@+id/LicenceEXPDate"
+        android:layout_alignEnd="@+id/LicenceEXPDate"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:text="Registration"
+        android:layout_above="@+id/renewbtn"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry-Date"
+        android:layout_alignBaseline="@+id/LicenceEXPDate"
+        android:layout_alignBottom="@+id/LicenceEXPDate"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days Left"
+        android:layout_alignBaseline="@+id/DaysLeft"
+        android:layout_alignBottom="@+id/DaysLeft"
+        android:layout_alignStart="@+id/textView10" />
+
+</RelativeLayout>
